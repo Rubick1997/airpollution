@@ -1,10 +1,11 @@
 import "./App.css";
+import PollutionComponent from "./PollutionComponent";
 import MainComponent from "./MainComponent";
-
 function App() {
 	return (
 		<div className='App'>
-			<MainComponent />
+			{/* <PollutionComponent/> */}
+      <MainComponent/>
 		</div>
 	);
 }
